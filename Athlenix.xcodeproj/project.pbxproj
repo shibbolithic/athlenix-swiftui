@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3464909D2D812E6600BB50E1 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 3464909C2D812E6600BB50E1 /* DGCharts */; };
+		347D66642D15EF71009A6EBD /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 347D66632D15EF71009A6EBD /* Auth */; };
+		347D66662D15EF71009A6EBD /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 347D66652D15EF71009A6EBD /* Functions */; };
+		347D66682D15EF71009A6EBD /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 347D66672D15EF71009A6EBD /* PostgREST */; };
+		347D666A2D15EF71009A6EBD /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 347D66692D15EF71009A6EBD /* Realtime */; };
+		347D666C2D15EF71009A6EBD /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 347D666B2D15EF71009A6EBD /* Storage */; };
+		347D666E2D15EF71009A6EBD /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 347D666D2D15EF71009A6EBD /* Supabase */; };
+		348C3FCF2D507EBD00425FAB /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 348C3FCE2D507EBD00425FAB /* SDWebImage */; };
+		348C3FD12D507EBD00425FAB /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 348C3FD02D507EBD00425FAB /* SDWebImageMapKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		346490A12D812EB400BB50E1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		34598B762D0CACE60011C7A6 /* PakhisAthlinix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PakhisAthlinix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		34598B882D0CACE70011C7A6 /* Exceptions for "PakhisAthlinix" folder in "PakhisAthlinix" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 34598B752D0CACE60011C7A6 /* PakhisAthlinix */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		34598B782D0CACE60011C7A6 /* PakhisAthlinix */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				34598B882D0CACE70011C7A6 /* Exceptions for "PakhisAthlinix" folder in "PakhisAthlinix" target */,
+			);
+			path = PakhisAthlinix;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34598B732D0CACE60011C7A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347D66682D15EF71009A6EBD /* PostgREST in Frameworks */,
+				347D66662D15EF71009A6EBD /* Functions in Frameworks */,
+				347D666E2D15EF71009A6EBD /* Supabase in Frameworks */,
+				348C3FCF2D507EBD00425FAB /* SDWebImage in Frameworks */,
+				347D66642D15EF71009A6EBD /* Auth in Frameworks */,
+				347D666C2D15EF71009A6EBD /* Storage in Frameworks */,
+				348C3FD12D507EBD00425FAB /* SDWebImageMapKit in Frameworks */,
+				3464909D2D812E6600BB50E1 /* DGCharts in Frameworks */,
+				347D666A2D15EF71009A6EBD /* Realtime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34598B6D2D0CACE60011C7A6 = {
+			isa = PBXGroup;
+			children = (
+				34598B782D0CACE60011C7A6 /* PakhisAthlinix */,
+				34598B772D0CACE60011C7A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34598B772D0CACE60011C7A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34598B762D0CACE60011C7A6 /* PakhisAthlinix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34598B752D0CACE60011C7A6 /* PakhisAthlinix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34598B892D0CACE70011C7A6 /* Build configuration list for PBXNativeTarget "PakhisAthlinix" */;
+			buildPhases = (
+				34598B722D0CACE60011C7A6 /* Sources */,
+				34598B732D0CACE60011C7A6 /* Frameworks */,
+				34598B742D0CACE60011C7A6 /* Resources */,
+				346490A12D812EB400BB50E1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				34598B782D0CACE60011C7A6 /* PakhisAthlinix */,
+			);
+			name = PakhisAthlinix;
+			packageProductDependencies = (
+				347D66632D15EF71009A6EBD /* Auth */,
+				347D66652D15EF71009A6EBD /* Functions */,
+				347D66672D15EF71009A6EBD /* PostgREST */,
+				347D66692D15EF71009A6EBD /* Realtime */,
+				347D666B2D15EF71009A6EBD /* Storage */,
+				347D666D2D15EF71009A6EBD /* Supabase */,
+				348C3FCE2D507EBD00425FAB /* SDWebImage */,
+				348C3FD02D507EBD00425FAB /* SDWebImageMapKit */,
+				3464909C2D812E6600BB50E1 /* DGCharts */,
+			);
+			productName = PakhisAthlinix;
+			productReference = 34598B762D0CACE60011C7A6 /* PakhisAthlinix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34598B6E2D0CACE60011C7A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					34598B752D0CACE60011C7A6 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 34598B712D0CACE60011C7A6 /* Build configuration list for PBXProject "Athlenix" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34598B6D2D0CACE60011C7A6;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				347D66622D15EF71009A6EBD /* XCRemoteSwiftPackageReference "supabase-swift" */,
+				348C3FCD2D507EBD00425FAB /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				3464909B2D812E6600BB50E1 /* XCRemoteSwiftPackageReference "Charts" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 34598B772D0CACE60011C7A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34598B752D0CACE60011C7A6 /* PakhisAthlinix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34598B742D0CACE60011C7A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34598B722D0CACE60011C7A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		34598B8A2D0CACE70011C7A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J42R7YT334;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PakhisAthlinix/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.athlinix.PakhisAthlinix;
+				PRODUCT_NAME = PakhisAthlinix;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34598B8B2D0CACE70011C7A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J42R7YT334;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PakhisAthlinix/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.athlinix.PakhisAthlinix;
+				PRODUCT_NAME = PakhisAthlinix;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34598B8C2D0CACE70011C7A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34598B8D2D0CACE70011C7A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34598B712D0CACE60011C7A6 /* Build configuration list for PBXProject "Athlenix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34598B8C2D0CACE70011C7A6 /* Debug */,
+				34598B8D2D0CACE70011C7A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34598B892D0CACE70011C7A6 /* Build configuration list for PBXNativeTarget "PakhisAthlinix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34598B8A2D0CACE70011C7A6 /* Debug */,
+				34598B8B2D0CACE70011C7A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3464909B2D812E6600BB50E1 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+		347D66622D15EF71009A6EBD /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+		348C3FCD2D507EBD00425FAB /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.20.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3464909C2D812E6600BB50E1 /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3464909B2D812E6600BB50E1 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+		347D66632D15EF71009A6EBD /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 347D66622D15EF71009A6EBD /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		347D66652D15EF71009A6EBD /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 347D66622D15EF71009A6EBD /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		347D66672D15EF71009A6EBD /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 347D66622D15EF71009A6EBD /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		347D66692D15EF71009A6EBD /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 347D66622D15EF71009A6EBD /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		347D666B2D15EF71009A6EBD /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 347D66622D15EF71009A6EBD /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		347D666D2D15EF71009A6EBD /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 347D66622D15EF71009A6EBD /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		348C3FCE2D507EBD00425FAB /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 348C3FCD2D507EBD00425FAB /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		348C3FD02D507EBD00425FAB /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 348C3FCD2D507EBD00425FAB /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 34598B6E2D0CACE60011C7A6 /* Project object */;
+}
